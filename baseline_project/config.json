@@ -25,14 +25,15 @@
   
   "preprocessing": {
     "language": "fr",
-    "spacy_model": "fr_core_news_sm",
+    "spacy_model": "fr_core_news_md", 
     "normalize_case": true,
     "remove_urls": false,
     "remove_html": true,
     "remove_accents": false,
     "min_token_length": 2,
     "remove_stopwords": true,
-    "lemmatization": true
+    "lemmatization": true,
+    "ner_confidence_threshold": 0.7
   },
   
   "classification": {
