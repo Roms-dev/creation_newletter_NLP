@@ -1,0 +1,90 @@
+===========================================================================
+📰 VEILLE AUTOMATIQUE : NLP & Python
+Généré le 20 January 2026 à 12:07
+===========================================================================
+
+📊 RÉSUMÉ EXÉCUTIF
+---------------------------------------------------------------------------
+Articles collectés : 63
+Articles uniques : 61 (dédupli rate: 3.2%)
+
+🔥 TRENDING TOPICS (Sujets du moment)
+---------------------------------------------------------------------------
+
+1. UNKNOWN
+   Articles: 61
+   Sentiment dominant: Critique
+   Exemples:
+     • Linux kernel framework for PCIe device emulation, 
+     • The Overcomplexity of the Shadcn Radio Button
+     • Level S4 solar radiation event
+
+
+✨ ARTICLES À NE PAS MANQUER
+---------------------------------------------------------------------------
+
+📌 1. Linux kernel framework for PCIe device emulation, in userspace
+   Source: HackerNews
+   URL: https://github.com/cakehonolulu/pciem
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Critique
+
+📌 2. The Overcomplexity of the Shadcn Radio Button
+   Source: HackerNews
+   URL: https://paulmakeswebsites.com/writing/shadcn-radio-button/
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Critique
+
+📌 3. Level S4 solar radiation event
+   Source: HackerNews
+   URL: https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Positif
+
+📌 4. Increasing the performance of WebAssembly Text Format parser by 350%
+   Source: HackerNews
+   URL: https://blog.gplane.win/posts/improve-wat-parser-perf.html
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Positif
+
+📌 5. King â€“ man + woman is queen; but why? (2017)
+   Source: HackerNews
+   URL: https://p.migdal.pl/blog/2017/01/king-man-woman-queen-why/
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Critique
+
+
+📊 ANALYSE THÉMATIQUE
+---------------------------------------------------------------------------
+
+Top Keywords (353 tokens uniques):
+  • in                   (20 mentions)
+  • the                  (20 mentions)
+  • and                  (11 mentions)
+  • of                   (10 mentions)
+  • for                  (8 mentions)
+  • to                   (7 mentions)
+  • show                 (7 mentions)
+  • hn                   (6 mentions)
+  • social               (4 mentions)
+  • media                (4 mentions)
+
+Distribution par Niveau:
+  • Unknown             :  61 (100.0%)
+
+
+😊 ANALYSE SENTIMENTS
+---------------------------------------------------------------------------
+Critique       :  38 articles ( 62.3%)
+Positif        :  18 articles ( 29.5%)
+Neutre         :   5 articles (  8.2%)
+
+
+===========================================================================
+Fin du rapport
+===========================================================================
