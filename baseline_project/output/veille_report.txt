@@ -1,88 +1,88 @@
 ===========================================================================
 📰 VEILLE AUTOMATIQUE : NLP & Python
-Généré le 20 January 2026 à 12:07
+Généré le 20 January 2026 à 15:09
 ===========================================================================
 
 📊 RÉSUMÉ EXÉCUTIF
 ---------------------------------------------------------------------------
 Articles collectés : 63
-Articles uniques : 61 (dédupli rate: 3.2%)
+Articles uniques : 62 (dédupli rate: 1.6%)
 
 🔥 TRENDING TOPICS (Sujets du moment)
 ---------------------------------------------------------------------------
 
 1. UNKNOWN
-   Articles: 61
+   Articles: 62
    Sentiment dominant: Critique
    Exemples:
+     • Running Claude Code dangerously (safely)
      • Linux kernel framework for PCIe device emulation, 
-     • The Overcomplexity of the Shadcn Radio Button
-     • Level S4 solar radiation event
+     • I'm addicted to being useful
 
 
 ✨ ARTICLES À NE PAS MANQUER
 ---------------------------------------------------------------------------
 
-📌 1. Linux kernel framework for PCIe device emulation, in userspace
+📌 1. Running Claude Code dangerously (safely)
+   Source: HackerNews
+   URL: https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Positif
+
+📌 2. Linux kernel framework for PCIe device emulation, in userspace
    Source: HackerNews
    URL: https://github.com/cakehonolulu/pciem
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 2. The Overcomplexity of the Shadcn Radio Button
+📌 3. I'm addicted to being useful
    Source: HackerNews
-   URL: https://paulmakeswebsites.com/writing/shadcn-radio-button/
+   URL: https://www.seangoedecke.com/addicted-to-being-useful/
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 3. Level S4 solar radiation event
+📌 4. Show HN: Ocrbase – pdf → .md/.json document OCR and structured extraction API
+   Source: HackerNews
+   URL: https://github.com/majcheradam/ocrbase
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Critique
+
+📌 5. Level S4 solar radiation event
    Source: HackerNews
    URL: https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Positif
 
-📌 4. Increasing the performance of WebAssembly Text Format parser by 350%
-   Source: HackerNews
-   URL: https://blog.gplane.win/posts/improve-wat-parser-perf.html
-   Niveau: Unknown
-   Confiance: 0.0%
-   Sentiment: Positif
-
-📌 5. King â€“ man + woman is queen; but why? (2017)
-   Source: HackerNews
-   URL: https://p.migdal.pl/blog/2017/01/king-man-woman-queen-why/
-   Niveau: Unknown
-   Confiance: 0.0%
-   Sentiment: Critique
-
 
 📊 ANALYSE THÉMATIQUE
 ---------------------------------------------------------------------------
 
-Top Keywords (353 tokens uniques):
-  • in                   (20 mentions)
-  • the                  (20 mentions)
+Top Keywords (350 tokens uniques):
+  • in                   (19 mentions)
+  • the                  (19 mentions)
   • and                  (11 mentions)
   • of                   (10 mentions)
-  • for                  (8 mentions)
+  • for                  (7 mentions)
   • to                   (7 mentions)
   • show                 (7 mentions)
-  • hn                   (6 mentions)
-  • social               (4 mentions)
-  • media                (4 mentions)
+  • hn                   (7 mentions)
+  • with                 (4 mentions)
+  • browser              (4 mentions)
 
 Distribution par Niveau:
-  • Unknown             :  61 (100.0%)
+  • Unknown             :  62 (100.0%)
 
 
 😊 ANALYSE SENTIMENTS
 ---------------------------------------------------------------------------
-Critique       :  38 articles ( 62.3%)
-Positif        :  18 articles ( 29.5%)
-Neutre         :   5 articles (  8.2%)
+Positif        :  21 articles ( 33.9%)
+Critique       :  37 articles ( 59.7%)
+Neutre         :   4 articles (  6.5%)
 
 
 ===========================================================================

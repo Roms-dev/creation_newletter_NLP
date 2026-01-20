@@ -51,7 +51,7 @@ Ce projet est un **point de départ fonctionnel** que tu **dois étendre et amé
 
 **Niveau 1 ** : Ajouter sophistication
 ```python
-# "Je vais améliorer la confiance du NER"
+# "Je vais améliorer la confiance du NER"  FAIT
 # "Je vais fine-tuner le classifier sur nos données"
 # "Je vais implémenter semantic similarity pour duplicates"
 #....
