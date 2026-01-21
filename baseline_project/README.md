@@ -218,8 +218,8 @@ DESIGN DECISIONS documentés :
   - [ ] Implémenter retry + exponential backoff
 
 - [ ] **Prétraitement**
-  - [ ] Tester impact remove_accents: True vs False
-  - [ ] Comparer spaCy vs NLTK sur timing
+  - [ ] Tester impact remove_accents: True vs False✔️
+  - [ ] Comparer spaCy vs NLTK sur timing ✔️
   - [ ] Analyser token_loss_pct (est-ce normal 45%?)
   - [ ] Ajouter stemming optionnel
 

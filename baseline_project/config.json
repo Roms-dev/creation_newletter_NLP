@@ -29,7 +29,7 @@
     "normalize_case": true,
     "remove_urls": false,
     "remove_html": true,
-    "remove_accents": false,
+    "remove_accents": true,
     "min_token_length": 2,
     "remove_stopwords": true,
     "lemmatization": true,

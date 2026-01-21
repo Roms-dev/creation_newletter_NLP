@@ -1,6 +1,6 @@
 ===========================================================================
 📰 VEILLE AUTOMATIQUE : NLP & Python
-Généré le 20 January 2026 à 15:09
+Généré le 20 January 2026 à 16:53
 ===========================================================================
 
 📊 RÉSUMÉ EXÉCUTIF
@@ -15,31 +15,31 @@ Articles uniques : 62 (dédupli rate: 1.6%)
    Articles: 62
    Sentiment dominant: Critique
    Exemples:
-     • Running Claude Code dangerously (safely)
-     • Linux kernel framework for PCIe device emulation, 
-     • I'm addicted to being useful
+     • IP Addresses Through 2025
+     • Danish pension fund divesting US Treasuries
+     • The Zen of Reticulum
 
 
 ✨ ARTICLES À NE PAS MANQUER
 ---------------------------------------------------------------------------
 
-📌 1. Running Claude Code dangerously (safely)
+📌 1. IP Addresses Through 2025
    Source: HackerNews
-   URL: https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/
-   Niveau: Unknown
-   Confiance: 0.0%
-   Sentiment: Positif
-
-📌 2. Linux kernel framework for PCIe device emulation, in userspace
-   Source: HackerNews
-   URL: https://github.com/cakehonolulu/pciem
+   URL: https://www.potaroo.net/ispcol/2026-01/addr2025.html
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 3. I'm addicted to being useful
+📌 2. Danish pension fund divesting US Treasuries
    Source: HackerNews
-   URL: https://www.seangoedecke.com/addicted-to-being-useful/
+   URL: https://www.reuters.com/business/danish-pension-fund-divest-its-us-treasuries-2026-01-20/
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Critique
+
+📌 3. The Zen of Reticulum
+   Source: HackerNews
+   URL: https://github.com/markqvist/Reticulum/blob/master/Zen%20of%20Reticulum.md
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
@@ -51,28 +51,28 @@ Articles uniques : 62 (dédupli rate: 1.6%)
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 5. Level S4 solar radiation event
+📌 5. I'm addicted to being useful
    Source: HackerNews
-   URL: https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026
+   URL: https://www.seangoedecke.com/addicted-to-being-useful/
    Niveau: Unknown
    Confiance: 0.0%
-   Sentiment: Positif
+   Sentiment: Critique
 
 
 📊 ANALYSE THÉMATIQUE
 ---------------------------------------------------------------------------
 
-Top Keywords (350 tokens uniques):
-  • in                   (19 mentions)
-  • the                  (19 mentions)
+Top Keywords (353 tokens uniques):
+  • the                  (18 mentions)
+  • in                   (17 mentions)
+  • of                   (11 mentions)
   • and                  (11 mentions)
-  • of                   (10 mentions)
-  • for                  (7 mentions)
   • to                   (7 mentions)
-  • show                 (7 mentions)
-  • hn                   (7 mentions)
+  • show                 (6 mentions)
+  • hn                   (6 mentions)
+  • for                  (5 mentions)
+  • 2025                 (4 mentions)
   • with                 (4 mentions)
-  • browser              (4 mentions)
 
 Distribution par Niveau:
   • Unknown             :  62 (100.0%)
@@ -80,9 +80,9 @@ Distribution par Niveau:
 
 😊 ANALYSE SENTIMENTS
 ---------------------------------------------------------------------------
-Positif        :  21 articles ( 33.9%)
-Critique       :  37 articles ( 59.7%)
-Neutre         :   4 articles (  6.5%)
+Critique       :  38 articles ( 61.3%)
+Positif        :  19 articles ( 30.6%)
+Neutre         :   5 articles (  8.1%)
 
 
 ===========================================================================
