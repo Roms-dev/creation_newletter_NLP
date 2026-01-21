@@ -27,7 +27,66 @@ baseline_project/
 │
 └── notebooks/                  # Jupyter notebooks (optionnel)
     └── 01_exploratory_data_analysis.ipynb
+    └── visualisations.ipynb     # Visualisations interactives (NOUVEAU)
 ```
+
+## 📊 Visualisations et Analyses
+
+### 🎨 Visualisations Disponibles
+
+Le projet inclut maintenant un système complet de visualisations :
+
+#### 📈 Visualisations Statiques (PNG)
+- **Distribution des topics** : Bar charts + pie charts des niveaux de difficulté
+- **Analyse des sentiments** : Répartition positif/neutre/négatif
+- **Nuages de mots** : WordCloud des titres et mots-clés
+- **Métriques preprocessing** : Distribution des pertes de tokens
+- **Analyse des sources** : Répartition RSS/HackerNews
+- **Déduplication** : Articles uniques vs doublons
+
+#### 📊 Notebook Interactif (`visualisations.ipynb`)
+- Visualisations Plotly interactives
+- Analyse croisée (sentiment vs topic)
+- Métriques détaillées avec statistiques
+- Exploration interactive des données
+
+### 🚀 Utilisation des Visualisations
+
+```bash
+# Installation des dépendances (si nécessaire)
+pip install matplotlib seaborn wordcloud plotly
+
+# Créer toutes les visualisations statiques
+python visualisations.py
+
+# Ou utiliser le notebook interactif
+jupyter notebook visualisations.ipynb
+```
+
+### 📁 Fichiers Générés
+
+Les visualisations sont automatiquement sauvegardées dans `output/` :
+```
+output/
+├── topic_distribution.png
+├── sentiment_analysis.png
+├── wordcloud_titles.png
+├── wordcloud_keywords.png
+├── preprocessing_metrics.png
+├── source_analysis.png
+└── deduplication_analysis.png
+```
+
+### 📊 Exemples de Visualisations
+
+#### Distribution des Topics
+![Topic Distribution](output/topic_distribution.png)
+
+#### Analyse des Sentiments
+![Sentiment Analysis](output/sentiment_analysis.png)
+
+#### Nuage de Mots
+![WordCloud](output/wordcloud_titles.png)
 
 ## 🎯 Qu'est-ce qu'un Baseline?
 
@@ -132,6 +191,25 @@ cat output/veille_report.txt
 head -10 data/articles_raw.jsonl
 head -10 data/articles_processed.jsonl
 head -10 data/articles_classified.jsonl
+
+# Générer les visualisations
+python visualisations.py
+
+# Ouvrir le notebook interactif
+jupyter notebook visualisations.ipynb
+```
+
+### 📊 Explorer les Visualisations
+
+```bash
+# Visualisations générées automatiquement dans output/
+ls output/*.png
+
+# Exemples:
+# - topic_distribution.png : Distribution des niveaux de difficulté
+# - sentiment_analysis.png : Analyse des sentiments
+# - wordcloud_titles.png : Nuage de mots des titres
+# - preprocessing_metrics.png : Métriques de qualité du preprocessing
 ```
 
 ---
@@ -220,7 +298,7 @@ DESIGN DECISIONS documentés :
 - [ ] **Prétraitement**
   - [ ] Tester impact remove_accents: True vs False✔️
   - [ ] Comparer spaCy vs NLTK sur timing ✔️
-  - [ ] Analyser token_loss_pct (est-ce normal 45%?)
+  - [ ] Analyser token_loss_pct (est-ce normal 45%?)✔️
   - [ ] Ajouter stemming optionnel
 
 - [ ] **Classification**
@@ -230,7 +308,7 @@ DESIGN DECISIONS documentés :
   - [ ] Implémenter custom NER (technos spécifiques)
 
 - [ ] **Rapport**
-  - [ ] Ajouter visualisations (wordcloud, charts)
+  - [x] Ajouter visualisations (wordcloud, charts) ✔️
   - [ ] Calculer trend analysis (topics semaine précédente vs actuelle)
   - [ ] Ajouter insights qualitatifs
   - [ ] Exporter aussi en JSON/Markdown

@@ -372,8 +372,5 @@ if __name__ == "__main__":
     
     result = preprocessor.process(test_text)
     
-    print("\n📝 TEST PREPROCESSING")
-    print(f"Original ({len(result['original'])} chars): {result['original']}")
-    print(f"Normalized ({len(result['normalized'])} chars): {result['normalized']}")
-    print(f"Tokens ({result['num_tokens_final']} tokens): {result['tokens']}")
-    print(f"Token loss: {result['token_loss_pct']}%")
+
+
