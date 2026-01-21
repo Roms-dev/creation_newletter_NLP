@@ -308,7 +308,7 @@ DESIGN DECISIONS documentés :
   - [ ] Implémenter custom NER (technos spécifiques)
 
 - [ ] **Rapport**
-  - [x] Ajouter visualisations (wordcloud, charts) ✔️
+  - [ ] Ajouter visualisations (wordcloud, charts) ✔️
   - [ ] Calculer trend analysis (topics semaine précédente vs actuelle)
   - [ ] Ajouter insights qualitatifs
   - [ ] Exporter aussi en JSON/Markdown

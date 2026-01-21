@@ -429,3 +429,77 @@ If this is a private repository, make sure to pass a token having permission to 
 2026-01-20 16:53:07,001 | __main__ | INFO | Articles traités: 63
 2026-01-20 16:53:07,001 | __main__ | INFO | Temps total: 16:53:07
 2026-01-20 16:53:07,001 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:37,810 | __main__ | INFO | 🚀 Pipeline Veille NLP - Démarrage
+2026-01-21 12:55:37,811 | __main__ | INFO | Configuration chargée depuis: config.json
+2026-01-21 12:55:37,811 | __main__ | INFO | 
+===========================================================================
+2026-01-21 12:55:37,811 | __main__ | INFO | ÉTAPE 1 : COLLECTE ARTICLES
+2026-01-21 12:55:37,811 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:37,812 | news_collector | INFO | ======================================================================
+2026-01-21 12:55:37,812 | news_collector | INFO | 📥 COLLECTE ARTICLES - Début
+2026-01-21 12:55:37,812 | news_collector | INFO | ======================================================================
+2026-01-21 12:55:37,812 | news_collector | INFO | 🔄 Collecte HackerNews...
+2026-01-21 12:55:37,812 | news_collector | INFO |   Scraping page 1/2
+2026-01-21 12:55:40,966 | news_collector | INFO |   Scraping page 2/2
+2026-01-21 12:55:43,176 | news_collector | INFO | ✅ HackerNews: 60 articles collectés
+2026-01-21 12:55:43,176 | news_collector | INFO | 🔄 Collecte RSS: https://pycoders.com/feed
+2026-01-21 12:55:43,664 | news_collector | INFO | ✅ RSS: 3 articles collectés
+2026-01-21 12:55:43,664 | news_collector | INFO | ======================================================================
+2026-01-21 12:55:43,665 | news_collector | INFO | 📊 RÉSUMÉ COLLECTE
+2026-01-21 12:55:43,666 | news_collector | INFO |    Total articles : 63
+2026-01-21 12:55:43,666 | news_collector | INFO |    Total erreurs : 0
+2026-01-21 12:55:43,666 | news_collector | INFO | ======================================================================
+2026-01-21 12:55:43,668 | news_collector | INFO | ✅ Articles sauvegardés: data/articles_raw.jsonl
+2026-01-21 12:55:43,668 | news_collector | INFO | ✅ Erreurs sauvegardées: data/collection_errors.json
+2026-01-21 12:55:43,669 | __main__ | INFO | ✅ ÉTAPE 1 COMPLÉTÉE : 63 articles collectés
+2026-01-21 12:55:43,670 | __main__ | INFO | 
+===========================================================================
+2026-01-21 12:55:43,670 | __main__ | INFO | ÉTAPE 2 : PRÉTRAITEMENT NLP
+2026-01-21 12:55:43,670 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:47,505 | text_preprocessor | INFO | ✅ Modèle spaCy chargé: fr_core_news_sm
+2026-01-21 12:55:47,505 | text_preprocessor | INFO | 🔧 Preprocessing 63 articles...
+2026-01-21 12:55:47,732 | text_preprocessor | INFO |   ✓ 20/63 articles
+2026-01-21 12:55:47,927 | text_preprocessor | INFO |   ✓ 40/63 articles
+2026-01-21 12:55:48,124 | text_preprocessor | INFO |   ✓ 60/63 articles
+2026-01-21 12:55:48,155 | text_preprocessor | INFO | ✅ Preprocessing terminé: 63 articles
+2026-01-21 12:55:48,157 | __main__ | INFO | ✅ ÉTAPE 2 COMPLÉTÉE : 63 articles traités
+2026-01-21 12:55:48,159 | __main__ | INFO | 
+===========================================================================
+2026-01-21 12:55:48,159 | __main__ | INFO | ÉTAPE 3 : CLASSIFICATION & EXTRACTION
+2026-01-21 12:55:48,160 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:48,160 | news_classifier | INFO | 📥 Chargement modèle: distilbert-base-multilingual-uncased...
+2026-01-21 12:55:48,605 | news_classifier | ERROR | ❌ Erreur chargement modèle: distilbert-base-multilingual-uncased is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2026-01-21 12:55:49,589 | news_classifier | INFO | ✅ Sentiment classifier chargé
+2026-01-21 12:55:49,589 | news_classifier | INFO | 🤖 Classification 63 articles...
+2026-01-21 12:55:50,991 | news_classifier | INFO |   ✓ 10/63 articles
+2026-01-21 12:55:51,153 | news_classifier | INFO |   ✓ 20/63 articles
+2026-01-21 12:55:51,294 | news_classifier | INFO |   ✓ 30/63 articles
+2026-01-21 12:55:51,447 | news_classifier | INFO |   ✓ 40/63 articles
+2026-01-21 12:55:51,617 | news_classifier | INFO |   ✓ 50/63 articles
+2026-01-21 12:55:51,799 | news_classifier | INFO |   ✓ 60/63 articles
+2026-01-21 12:55:51,871 | news_classifier | INFO | 🔍 Duplicate detection (threshold=0.85)...
+2026-01-21 12:55:51,885 | news_classifier | INFO | ✅ Duplicate detection: 2 doublons trouvés
+2026-01-21 12:55:51,885 | news_classifier | INFO | ✅ Classification terminée: 63 articles
+2026-01-21 12:55:51,888 | __main__ | INFO | ✅ ÉTAPE 3 COMPLÉTÉE : 63 articles classifiés
+2026-01-21 12:55:51,893 | __main__ | INFO | 
+===========================================================================
+2026-01-21 12:55:51,893 | __main__ | INFO | ÉTAPE 4 : GÉNÉRATION RAPPORT
+2026-01-21 12:55:51,893 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:51,893 | report_generator | INFO | 📝 Génération rapport...
+2026-01-21 12:55:51,893 | report_generator | INFO | 📈 Extraction trending topics...
+2026-01-21 12:55:51,894 | report_generator | INFO | ✅ 1 trending topics trouvés
+2026-01-21 12:55:51,894 | report_generator | INFO | ✨ Extraction must-read articles...
+2026-01-21 12:55:51,894 | report_generator | INFO | ✅ 5 must-read articles sélectionnés
+2026-01-21 12:55:51,894 | report_generator | INFO | 📊 Analyse thématique...
+2026-01-21 12:55:51,895 | report_generator | INFO | 😊 Analyse sentiments...
+2026-01-21 12:55:51,897 | report_generator | INFO | ✅ Rapport sauvegardé: output\veille_report.txt
+2026-01-21 12:55:51,897 | __main__ | INFO | ✅ ÉTAPE 4 COMPLÉTÉE : Rapport sauvegardé
+2026-01-21 12:55:51,897 | __main__ | INFO | 
+===========================================================================
+2026-01-21 12:55:51,897 | __main__ | INFO | ✅ PIPELINE COMPLET - SUCCÈS
+2026-01-21 12:55:51,898 | __main__ | INFO | ===========================================================================
+2026-01-21 12:55:51,898 | __main__ | INFO | Rapport généré: output/veille_report.txt
+2026-01-21 12:55:51,898 | __main__ | INFO | Articles traités: 63
+2026-01-21 12:55:51,898 | __main__ | INFO | Temps total: 12:55:51
+2026-01-21 12:55:51,898 | __main__ | INFO | ===========================================================================

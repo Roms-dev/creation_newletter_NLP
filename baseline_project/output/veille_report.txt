@@ -1,88 +1,88 @@
 ===========================================================================
 📰 VEILLE AUTOMATIQUE : NLP & Python
-Généré le 20 January 2026 à 16:53
+Généré le 21 January 2026 à 12:55
 ===========================================================================
 
 📊 RÉSUMÉ EXÉCUTIF
 ---------------------------------------------------------------------------
 Articles collectés : 63
-Articles uniques : 62 (dédupli rate: 1.6%)
+Articles uniques : 61 (dédupli rate: 3.2%)
 
 🔥 TRENDING TOPICS (Sujets du moment)
 ---------------------------------------------------------------------------
 
 1. UNKNOWN
-   Articles: 62
+   Articles: 61
    Sentiment dominant: Critique
    Exemples:
-     • IP Addresses Through 2025
-     • Danish pension fund divesting US Treasuries
-     • The Zen of Reticulum
+     • Anthropic's original take home assignment open sou
+     • Parliament tells Dutch gov't to keep DigiD data ou
+     • EmuDevz: A game about developing emulators
 
 
 ✨ ARTICLES À NE PAS MANQUER
 ---------------------------------------------------------------------------
 
-📌 1. IP Addresses Through 2025
+📌 1. Anthropic's original take home assignment open sourced
    Source: HackerNews
-   URL: https://www.potaroo.net/ispcol/2026-01/addr2025.html
+   URL: https://github.com/anthropics/original_performance_takehome
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Positif
+
+📌 2. Parliament tells Dutch gov't to keep DigiD data out of American hands
+   Source: HackerNews
+   URL: https://nltimes.nl/2026/01/21/parliament-tells-dutch-govt-keep-digid-data-american-hands
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 2. Danish pension fund divesting US Treasuries
+📌 3. A 26,000-year astronomical monument hidden in plain sight (2019)
    Source: HackerNews
-   URL: https://www.reuters.com/business/danish-pension-fund-divest-its-us-treasuries-2026-01-20/
+   URL: https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/
+   Niveau: Unknown
+   Confiance: 0.0%
+   Sentiment: Positif
+
+📌 4. Batmobile: 10-20x Faster CUDA Kernels for Equivariant Graph Neural Networks
+   Source: HackerNews
+   URL: https://elliotarledge.com/blog/batmobile
    Niveau: Unknown
    Confiance: 0.0%
    Sentiment: Critique
 
-📌 3. The Zen of Reticulum
+📌 5. cURL removes bug bounties
    Source: HackerNews
-   URL: https://github.com/markqvist/Reticulum/blob/master/Zen%20of%20Reticulum.md
+   URL: https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html
    Niveau: Unknown
    Confiance: 0.0%
-   Sentiment: Critique
-
-📌 4. Show HN: Ocrbase – pdf → .md/.json document OCR and structured extraction API
-   Source: HackerNews
-   URL: https://github.com/majcheradam/ocrbase
-   Niveau: Unknown
-   Confiance: 0.0%
-   Sentiment: Critique
-
-📌 5. I'm addicted to being useful
-   Source: HackerNews
-   URL: https://www.seangoedecke.com/addicted-to-being-useful/
-   Niveau: Unknown
-   Confiance: 0.0%
-   Sentiment: Critique
+   Sentiment: Positif
 
 
 📊 ANALYSE THÉMATIQUE
 ---------------------------------------------------------------------------
 
-Top Keywords (353 tokens uniques):
-  • the                  (18 mentions)
-  • in                   (17 mentions)
-  • of                   (11 mentions)
-  • and                  (11 mentions)
-  • to                   (7 mentions)
+Top Keywords (341 tokens uniques):
+  • of                   (15 mentions)
+  • the                  (14 mentions)
+  • hn                   (9 mentions)
+  • in                   (8 mentions)
+  • for                  (7 mentions)
+  • and                  (7 mentions)
+  • to                   (6 mentions)
   • show                 (6 mentions)
-  • hn                   (6 mentions)
-  • for                  (5 mentions)
-  • 2025                 (4 mentions)
-  • with                 (4 mentions)
+  • agent                (4 mentions)
+  • is                   (4 mentions)
 
 Distribution par Niveau:
-  • Unknown             :  62 (100.0%)
+  • Unknown             :  61 (100.0%)
 
 
 😊 ANALYSE SENTIMENTS
 ---------------------------------------------------------------------------
-Critique       :  38 articles ( 61.3%)
-Positif        :  19 articles ( 30.6%)
-Neutre         :   5 articles (  8.1%)
+Positif        :  23 articles ( 37.7%)
+Critique       :  30 articles ( 49.2%)
+Neutre         :   8 articles ( 13.1%)
 
 
 ===========================================================================
